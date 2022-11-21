@@ -1,0 +1,28 @@
+Algoritmo "semnome"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Antonio Carlos Nicolodi 
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 21/11/2022
+Var
+// Seção de Declarações das variáveis
+antecessor, sucessor, um_numero : inteiro
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+Escreva("Digite o valor de um numero: ")
+leia(um_numero)
+antecessor <-um_numero-1
+sucessor <- um_numero+1
+escreval("O valor do antecessor: ", antecessor)
+escreval("O valor do sucessor: ", sucessor)
+
+
+
+
+
+
+
+
+
+Fimalgoritmo
